@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>The PowerVR SDK Browser</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" href="./images/img-icon.png">
+</head>
+
+<body>
+	<div id="GlobalHeaderContainer">
+		<div id="GlobalHeader">
+			<div class="logo">
+				<a href="http://www.powervrinsider.com" target="_blank"><img src="./images/PVRlogo.png" width="40%" height="40%" /></a>
+            </div>
+			<div class="sitetitle">PowerVR SDK Browser</div>
+		</div>
+	</div>
+	<div id="NavContainer">
+		<nav>
+			<div class="navlink">
+				<a href="Home.html">Home</a>
+			</div>
+			<div class="navlink">
+				<a href="GettingStarted.html">Getting Started</a>
+			</div>
+			<div class="navlink">
+				<a href="Examples.html" class="current">Examples</a>
+			</div>
+			<div class="navlink">
+				<a href="Framework.html">Framework</a>
+			</div>
+			<div class="navlink">
+				<a href="Documentation.html">Documentation</a>
+			</div>
+			<div class="navlink">
+				<a href="PowerVRTools.html">PowerVR Tools</a>
+			</div>
+			<div class="navlink">
+				<a href="ReleaseNotes.html">Release Notes</a>
+			</div>
+			<div class="navlink">
+				<a href="Contact.html">Contact Us</a>
+			</div>
+		</nav>
+	</div>
+
+<!--API_TAB-->
+
+    <div class="content">
+        <div id="Section" class="section">
+<!--API_DESCRIPTION-->
+<h1>WebGL 1.x Examples</h1>
+<p>
+WebGL is a cross-platform API for 2D and 3D graphics on the web, based on OpenGL(r) ES 2.0. WebGL exposes everything that OpenGL ES 2.0 does, as well as various extensions to expose additional functionality, but inside a browser. As with OpenGL ES 2.0, WebGL has a programmable pipeline with shaders for much more flexibility than has previously been available in web standards. The API is fully GPU accelerated, allowing fairly modern graphics applications to run with performance in a browser with no additional plug-ins or downloads. As this is a Web-based API, the examples below will run directly in your browser (if supported).
+</p>
+</WebGL>
+		<p><a href="#Beginner" class="link">Beginner</a>  |  <a href="#Intermediate" class="link">Intermediate</a>  |  <a href="#Advanced" class="link">Advanced</a></p>
+<!--EXAMPLE_TEMPLATE-->
+<div id="Beginner""><h2>Beginner</h2><ul class="accordion">
+				<li id="HelloAPI">
+					<div class="title">
+						<a href="../../Examples/Beginner/01_HelloAPI/HelloAPI.png" title="Click to view image" target="_blank"><img class="examplesmall" src="../../Examples/Beginner/01_HelloAPI/HelloAPI.png" alt="HelloAPI" /></a>
+						<input type="checkbox" id="HelloAPIFull2">
+							<label for="HelloAPIFull2" title="Click for more information"><h3>HelloAPI</h3></label>
+							<div class="ShortDescription" id="TexturingShort"><p><p>Draw a triangle to the screen using hardware acceleration.
+</p></p></div>
+							<br>
+							<div class="FullDescription" id="TexturingFull">
+								<p><strong>Description:</strong></p>
+								<p><p>A basic tutorial that guides the user, step-by-step, through the process of initializing a window using :API:, drawing a triangle in it using hardware acceleration, and then terminating the window.
+</p></p>
+								<p><strong>Controls:</strong></p>
+								<p><p>	Esc	:	Close the application</p></p>
+								<p><strong>Links:</strong></p>
+								<p class="source"><a href="../../Examples/Beginner/01_HelloAPI/WebGL/WebGLHelloAPI.js" target="_blank">WebGLHelloAPI.js</a>  |  <a href="../../Examples/Beginner/01_HelloAPI/WebGL/index.html" target="_blank">Launch demo</a></p>
+							</div>
+						</input>
+					</div>
+				</li>
+				<li id="IntroducingPVRShell">
+					<div class="title">
+						<a href="../../Examples/Beginner/02_IntroducingPVRShell/IntroducingPVRShell.png" title="Click to view image" target="_blank"><img class="examplesmall" src="../../Examples/Beginner/02_IntroducingPVRShell/IntroducingPVRShell.png" alt="IntroducingPVRShell" /></a>
+						<input type="checkbox" id="IntroducingPVRShellFull2">
+							<label for="IntroducingPVRShellFull2" title="Click for more information"><h3>IntroducingPVRShell</h3></label>
+							<div class="ShortDescription" id="TexturingShort"><p><p>This training course introduces the PVRShell library.
+</p></p></div>
+							<br>
+							<div class="FullDescription" id="TexturingFull">
+								<p><strong>Description:</strong></p>
+								<p><p>This demo deals with the PVRShell library.  The PowerVR shell handles all OS specific initialisation code, and has several built in command line features which allow for the specifying of attributes. The library is constructed around a 'PVRShell' base class, and object of which is constructed and returned from a 'NewDemo' function.
+</p></p>
+								<p><strong>Controls:</strong></p>
+								<p><p>	Esc	:	Close the application</p></p>
+								<p><strong>Links:</strong></p>
+								<p class="source"><a href="../../Examples/Beginner/02_IntroducingPVRShell/WebGL/WebGLIntroducingPVRShell.js" target="_blank">WebGLIntroducingPVRShell.js</a>  |  <a href="../../Examples/Beginner/02_IntroducingPVRShell/WebGL/index.html" target="_blank">Launch demo</a></p>
+							</div>
+						</input>
+					</div>
+				</li>
+				<li id="Texturing">
+					<div class="title">
+						<a href="../../Examples/Beginner/03_Texturing/Texturing.png" title="Click to view image" target="_blank"><img class="examplesmall" src="../../Examples/Beginner/03_Texturing/Texturing.png" alt="Texturing" /></a>
+						<input type="checkbox" id="TexturingFull2">
+							<label for="TexturingFull2" title="Click for more information"><h3>Texturing</h3></label>
+							<div class="ShortDescription" id="TexturingShort"><p><p>This training course demonstrates how to apply a texture to a polygon in :API:.
+</p></p></div>
+							<br>
+							<div class="FullDescription" id="TexturingFull">
+								<p><strong>Description:</strong></p>
+								<p><p>This training course demonstrates how to apply a texture to a polygon in :API:. The texture is generated procedurally during initialisation and then loaded into :API:. The triangle is then drawn with UV values so that the texture can be applied to it.
+</p></p>
+								<p><strong>Controls:</strong></p>
+								<p><p>	Esc	:	Close the application</p></p>
+								<p><strong>Links:</strong></p>
+								<p class="source"><a href="../../Examples/Beginner/03_Texturing/WebGL/WebGLTexturing.js" target="_blank">WebGLTexturing.js</a>  |  <a href="../../Examples/Beginner/03_Texturing/WebGL/index.html" target="_blank">Launch demo</a></p>
+							</div>
+						</input>
+					</div>
+				</li>
+				<li id="BasicTnL">
+					<div class="title">
+						<a href="../../Examples/Beginner/04_BasicTnL/BasicTnL.png" title="Click to view image" target="_blank"><img class="examplesmall" src="../../Examples/Beginner/04_BasicTnL/BasicTnL.png" alt="BasicTnL" /></a>
+						<input type="checkbox" id="BasicTnLFull2">
+							<label for="BasicTnLFull2" title="Click for more information"><h3>BasicTnL</h3></label>
+							<div class="ShortDescription" id="TexturingShort"><p><p>This training course consists of a demonstration of basic transformation and lighting.
+</p></p></div>
+							<br>
+							<div class="FullDescription" id="TexturingFull">
+								<p><strong>Description:</strong></p>
+								<p><p>This training course consists of a demonstration of basic transformation and lighting, growing on the basic drawing techniques learnt in HelloTriangle.
+</p></p>
+								<p><strong>Controls:</strong></p>
+								<p><p>	Esc	:	Close the application</p></p>
+								<p><strong>Links:</strong></p>
+								<p class="source"><a href="../../Examples/Beginner/04_BasicTnL/WebGL/WebGLBasicTnL.js" target="_blank">WebGLBasicTnL.js</a>  |  <a href="../../Examples/Beginner/04_BasicTnL/WebGL/index.html" target="_blank">Launch demo</a></p>
+							</div>
+						</input>
+					</div>
+				</li>
+				<li id="IntroducingPVRTools">
+					<div class="title">
+						<a href="../../Examples/Beginner/05_IntroducingPVRTools/IntroducingPVRTools.png" title="Click to view image" target="_blank"><img class="examplesmall" src="../../Examples/Beginner/05_IntroducingPVRTools/IntroducingPVRTools.png" alt="IntroducingPVRTools" /></a>
+						<input type="checkbox" id="IntroducingPVRToolsFull2">
+							<label for="IntroducingPVRToolsFull2" title="Click for more information"><h3>IntroducingPVRTools</h3></label>
+							<div class="ShortDescription" id="TexturingShort"><p><p>This training course introduces the PVRTools libraries.
+</p></p></div>
+							<br>
+							<div class="FullDescription" id="TexturingFull">
+								<p><strong>Description:</strong></p>
+								<p><p>This training course introduces the PVRTools libraries.  These libraries provide various modules to help developers perform many of the common tasks associated with hardware accelerated graphics rendering.  
+</p></p>
+								<p><strong>Controls:</strong></p>
+								<p><p>	Esc	:	Close the application</p></p>
+								<p><strong>Links:</strong></p>
+								<p class="source"><a href="../../Examples/Beginner/05_IntroducingPVRTools/WebGL/WebGLIntroducingPVRTools.js" target="_blank">WebGLIntroducingPVRTools.js</a>  |  <a href="../../Examples/Beginner/05_IntroducingPVRTools/WebGL/index.html" target="_blank">Launch demo</a></p>
+							</div>
+						</input>
+					</div>
+				</li>
+				<li id="IntroducingPrint3D">
+					<div class="title">
+						<a href="../../Examples/Beginner/06_IntroducingPrint3D/IntroducingPrint3D.png" title="Click to view image" target="_blank"><img class="examplesmall" src="../../Examples/Beginner/06_IntroducingPrint3D/IntroducingPrint3D.png" alt="IntroducingPrint3D" /></a>
+						<input type="checkbox" id="IntroducingPrint3DFull2">
+							<label for="IntroducingPrint3DFull2" title="Click for more information"><h3>IntroducingPrint3D</h3></label>
+							<div class="ShortDescription" id="TexturingShort"><p><p>This training course introduces the Print3D class featured within the PVRTools library.
+</p></p></div>
+							<br>
+							<div class="FullDescription" id="TexturingFull">
+								<p><strong>Description:</strong></p>
+								<p><p>This training course introduces the Print3D class from the PVRTools library. Print3D can be used to display text in both 2D and 3D modes. The default projection mode is 2D but supplying a modelview and projection matrices allow the user to render the text in 3D. Text in different colours is also possible.
+</p></p>
+								<p><strong>Controls:</strong></p>
+								<p></p>
+								<p><strong>Links:</strong></p>
+								<p class="source"><a href="../../Examples/Beginner/06_IntroducingPrint3D/WebGL/WebGLIntroducingPrint3D.js" target="_blank">WebGLIntroducingPrint3D.js</a>  |  <a href="../../Examples/Beginner/06_IntroducingPrint3D/WebGL/index.html" target="_blank">Launch demo</a></p>
+							</div>
+						</input>
+					</div>
+				</li>
+				<li id="IntroducingPOD">
+					<div class="title">
+						<a href="../../Examples/Beginner/07_IntroducingPOD/IntroducingPOD.png" title="Click to view image" target="_blank"><img class="examplesmall" src="../../Examples/Beginner/07_IntroducingPOD/IntroducingPOD.png" alt="IntroducingPOD" /></a>
+						<input type="checkbox" id="IntroducingPODFull2">
+							<label for="IntroducingPODFull2" title="Click for more information"><h3>IntroducingPOD</h3></label>
+							<div class="ShortDescription" id="TexturingShort"><p><p>This training course introduces the PowerVR Object Data (.pod) format.
+</p></p></div>
+							<br>
+							<div class="FullDescription" id="TexturingFull">
+								<p><strong>Description:</strong></p>
+								<p><p>This training course introduces the PowerVR Object Data (.pod) format.  It goes into detail on how to open .pod files, load any .pfx and .pvr files that have been referenced, and set up the cameras and lights from the .pod file.
+</p></p>
+								<p><strong>Controls:</strong></p>
+								<p><p>	Esc	:	Close the application</p></p>
+								<p><strong>Links:</strong></p>
+								<p class="source"><a href="../../Examples/Beginner/07_IntroducingPOD/WebGL/WebGLIntroducingPOD.js" target="_blank">WebGLIntroducingPOD.js</a>  |  <a href="../../Examples/Beginner/07_IntroducingPOD/WebGL/index.html" target="_blank">Launch demo</a></p>
+							</div>
+						</input>
+					</div>
+				</li></div></ul><div id="Intermediate""><h2>Intermediate</h2><ul class="accordion">
+				<li id="RenderToTexture">
+					<div class="title">
+						<a href="../../Examples/Intermediate/RenderToTexture/RenderToTexture.png" title="Click to view image" target="_blank"><img class="examplesmall" src="../../Examples/Intermediate/RenderToTexture/RenderToTexture.png" alt="RenderToTexture" /></a>
+						<input type="checkbox" id="RenderToTextureFull2">
+							<label for="RenderToTextureFull2" title="Click for more information"><h3>RenderToTexture</h3></label>
+							<div class="ShortDescription" id="TexturingShort"><p><p>This training course demonstrates the use of rendering to a texture.
+</p></p></div>
+							<br>
+							<div class="FullDescription" id="TexturingFull">
+								<p><strong>Description:</strong></p>
+								<p><p>This training course demonstrates rendering a scene to a pBuffer surface or FBO, then binding and applying that render to an object in an additional render pass.
+</p></p>
+								<p><strong>Controls:</strong></p>
+								<p><p>	Left	:	Toggles multisampling of the FBOs</p><p>	Esc	:	Close the application</p></p>
+								<p><strong>Links:</strong></p>
+								<p class="source"><a href="../../Examples/Intermediate/RenderToTexture/WebGL/WebGLRenderToTexture.js" target="_blank">WebGLRenderToTexture.js</a>  |  <a href="../../Examples/Intermediate/RenderToTexture/WebGL/index.html" target="_blank">Launch demo</a></p>
+							</div>
+						</input>
+					</div>
+				</li></div></ul><div id="Advanced""><h2>Advanced</h2><ul class="accordion">
+				<li id="Water">
+					<div class="title">
+						<a href="../../Examples/Advanced/Water/Water.png" title="Click to view image" target="_blank"><img class="examplesmall" src="../../Examples/Advanced/Water/Water.png" alt="Water" /></a>
+						<input type="checkbox" id="WaterFull2">
+							<label for="WaterFull2" title="Click for more information"><h3>Water</h3></label>
+							<div class="ShortDescription" id="TexturingShort"><p><p>This demo shows how to render a water effect on a given plane
+</p></p></div>
+							<br>
+							<div class="FullDescription" id="TexturingFull">
+								<p><strong>Description:</strong></p>
+								<p><p>This demo utilises a combination of different techniques to produce a water effect. User input controls the elements that are implemented in the effect so that users can determine the effect that would best suit their needs. When reflection, refraction and depth effects are off, the water colours alpha value is used to blend the plane in with the rest of the rendered world. This adds to the quality of the basic effect for very little cost.
+</p></p>
+								<p><strong>Controls:</strong></p>
+								<p><p>	Left/Right : Cycle backwards/forwards through available options</p><p>	Up/Down : Change (Toggle or Increase/Decrease) the currently selected option</p><p>	1/Space	:	Toggle Pause/Unpause</p></p>
+								<p><strong>Links:</strong></p>
+								<p class="source"><a href="../../Examples/Advanced/Water/WebGL/WebGLWater.js" target="_blank">WebGLWater.js</a>  |  <a href="../../Examples/Advanced/Water/WebGL/index.html" target="_blank">Launch demo</a></p>
+							</div>
+						</input>
+					</div>
+				</li></div></ul>		</div>
+	</div>
+	
+	<div id="FooterMainContainer">
+		<div id="FooterContainer">
+			<div class="footerlogo">
+				<a href="http://www.imgtec.com" target="_blank"><img src="./images/img-footer-logo-grey.png" width="100%" height="100%" /></a>
+			</div>
+			<div class="copyright">&copy; Imagination Technologies Limited<br> All rights reserved</div>
+		</div>
+	</div>
+	
+</body>
+
+</html>
