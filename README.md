@@ -6,24 +6,23 @@ The WebGL SDK includes an abstraction layer that handles application life-cycle 
 ## Setup ##
 Many of the WebGL Examples require the code to be hosted on a server. For demonstration purposes, we've used GitHub's [Pages feature](https://pages.github.com/) to host the WebGL SDK. If you fork the code on GitHub, you can use the same mechanism to host your modified code. If you would prefer not to use GitHub, you must host the code on your own web server.
 
-## Examples ##
 ### Beginner ###
 <ol>
-<li>01_HelloAPI</li>
-<li>02_IntroducingPVRShell</li>
-<li>03_Texturing</li>
-<li>04_BasicTnL</li>
-<li>05_IntroducingPVRTools</li>
-<li>06_IntroducingPrint3D</li>
-<li>07_IntroducingPOD</li>
+<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/01_HelloAPI/WebGL/">01_HelloAPI</a></li>
+<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/02_IntroducingPVRShell/WebGL/">02_IntroducingPVRShell</a></li>
+<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/03_Texturing/WebGL/">03_Texturing</a></li>
+<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/04_BasicTnL/WebGL/">04_BasicTnL</a></li>
+<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/05_IntroducingPVRTools/WebGL/">05_IntroducingPVRTools</a></li>
+<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/06_IntroducingPrint3D/WebGL/">06_IntroducingPrint3D</a></li>
+<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/07_IntroducingPOD/WebGL/">07_IntroducingPOD</a></li>
 </ol>
 ### Intermediate ###
 <ol>
-<li>RenderToTexture</li>
+<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Intermediate/RenderToTexture/WebGL/">RenderToTexture</a></li>
 </ol>
 ### Advanced ###
 <ol>
-<li>Water</li>
+<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Advanced/Water/WebGL/">Water</a></li>
 </ol>
 
 ## License ##
