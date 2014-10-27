@@ -27,4 +27,4 @@ Many of the WebGL Examples require the code to be hosted on a server. For demons
 </ol>
 
 ## License ##
-The SDK is distributed under a permissive licence so it can easily be integrated into commercial and non-commercial applications. You can find the license here.
+The SDK is distributed under a permissive licence so it can easily be integrated into commercial and non-commercial applications. You can find the license <a href="https://github.com/powervr-graphics/WebGL_SDK/blob/master/LICENSE.txt">here</a>.
