@@ -3,7 +3,7 @@ This repository contains the source code for the PowerVR Graphics WebGL SDK. Alt
 
 The WebGL SDK includes an abstraction layer that handles application life-cycle events (Shell), a 3D maths, text printing and resource loading framework (Tools), and a sub-set of the native OpenGL ES SDK's 3D graphics example applications. The SDK has been optimized for PowerVR devices, but should run efficiently on all WebGL capable phones, tablets, laptops and PCs.
 
-If you would like to know more about the WebGL SDK, please visit our <a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/SDKBrowser.html">SDK Browser</a>.
+If you would like to know more about the WebGL SDK, please visit our [SDK Browser](http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/SDKBrowser.html).
 
 ## Setup ##
 Many of the WebGL Examples require the code to be hosted on a server. For demonstration purposes we've used GitHub's [Pages feature](https://pages.github.com/) to host the WebGL SDK. If you fork the code on GitHub you can use the same mechanism to host your modified code. If you would prefer not to use GitHub, you will need to host the code on your own web server.
@@ -28,4 +28,4 @@ Many of the WebGL Examples require the code to be hosted on a server. For demons
 </ol>
 
 ## License ##
-The SDK is distributed under a permissive licence so it can easily be integrated into commercial and non-commercial applications. You can find the license <a href="https://github.com/powervr-graphics/WebGL_SDK/blob/master/LICENSE.txt">here</a>.
+The SDK is distributed under a permissive license so it can easily be integrated into commercial and non-commercial applications. You can find the license [here](https://github.com/powervr-graphics/WebGL_SDK/blob/master/LICENSE.txt). To further clarify the terms, we also have an SDK license FAQ (available [here](http://community.imgtec.com/developers/powervr/faq-about-the-sdk-eula/)).
