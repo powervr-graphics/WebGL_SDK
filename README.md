@@ -6,6 +6,8 @@ The WebGL SDK includes an abstraction layer that handles application life-cycle 
 
 If you would like to know more about the WebGL SDK, please visit our [SDK Browser](http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/SDKBrowser.html).
 
+To keep up to date with changes to the SDK read the [what's new](http://community.imgtec.com/developers/powervr/whats-new/) page.
+
 ## Setup ##
 Many of the WebGL Examples require the code to be hosted on a server. For demonstration purposes we've used GitHub's [Pages feature](https://pages.github.com/) to host the WebGL SDK. If you fork the code on GitHub you can use the same mechanism to host your modified code. If you would prefer not to use GitHub, you will need to host the code on your own web server.
 
