@@ -1,0 +1,64 @@
+# Texture Atlas definition file
+#
+# Width and height of the texture atlas
+512 512
+# Number of textures which are in the texture (and where)
+45
+# Texture name, uv start-coordinates, uv end-coordinates
+# (the offset for each tile is 0.125)
+# first row (12 items)
+I1     0.0    0.875   0.125 0.125
+S1     0.125  0.875   0.125 0.125
+S2     0.125  0.875   0.125 0.125
+C1     0.125  0.875   0.125 0.125
+C2     0.125  0.875   0.125 0.125
+C3     0.125  0.875   0.125 0.125
+4100   0.25   0.875   0.125 0.125 # (Commuter Rail Station)
+7011   0.375  0.875   0.125 0.125 # (Hotel)
+7999   0.5    0.875   0.125 0.125 # (Tourist Attraction)
+7389   0.625  0.875   0.125 0.125 # (Tourist Information)
+7510   0.75   0.875   0.125 0.125 # (Rental Car Agencies)
+5999   0.875  0.875   0.125 0.125 # (Historical Monument)                                           
+# second row  (10 items)
+7947   0.0    0.75    0.125 0.125 # (Park/Recreation Area)
+7940   0.0    0.75    0.125 0.125 # (Sports Complex)  
+8410   0.125  0.75    0.125 0.125 # (Museum)
+7996   0.25   0.75    0.125 0.125 # (Amusement Park)
+5400   0.375  0.75    0.125 0.125 # (Grocery Store)
+6512   0.375  0.75    0.125 0.125 # (Shopping)
+7990   0.5    0.75    0.125 0.125 # (Convention Center)
+7897   0.625  0.75    0.125 0.125 # (Rest Area)
+7012   0.75   0.75    0.125 0.125 # (Ski Resort)
+9995   0.875  0.75    0.125 0.125 # (Book Store)
+# third row   (9 items)
+4493   0.0    0.625   0.125 0.125 # (Marina)
+7992   0.125  0.625   0.125 0.125 # (Golf Course)
+8060   0.25   0.625   0.125 0.125 # (Hospital)
+9583   0.375  0.625   0.125 0.125 # (Medical Services)
+9565   0.5    0.625   0.125 0.125 # (Pharmacy)
+5800   0.625  0.625   0.125 0.125 # (Restaurant)
+9996   0.75   0.625   0.125 0.125 # (Coffee Shop)
+5511   0.875  0.625   0.125 0.125 # (Automobile Dealership Used Cars)
+5571   0.875  0.625   0.125 0.125 # (Motorcycle Dealership)
+# fourth row  (8 items)
+4581   0.0    0.5     0.125 0.125 # (Airport)  
+4170   0.125  0.5     0.125 0.125 # (Bus Station)
+4013   0.25   0.5     0.125 0.125 # (Train Station)
+4482   0.375  0.5     0.125 0.125 # (Ferry Terminal)
+7832   0.5    0.5     0.125 0.125 # (Cinema)
+7929   0.625  0.5     0.125 0.125 # (Performing Arts)
+7538   0.75   0.5     0.125 0.125 # (Auto Service and Maintenance)
+5540   0.875  0.5     0.125 0.125 # (Petrol Station)
+#fifth row    (6 items)
+8699   0.0    0.375   0.125 0.125 # (Automobile Club)
+7520   0.125  0.375   0.125 0.125 # (Parking Lot)
+7521   0.125  0.375   0.125 0.125 # (Parking Garage)
+7522   0.25   0.375   0.125 0.125 # (Park and Ride)
+6000   0.375  0.375   0.125 0.125 # (Bank)
+3578   0.5    0.375   0.125 0.125 # (ATM)
+#sixth row    (0 items)
+#?     0.0    0.25    0.125 0.125 # Description
+#seventh row  (0 items)
+#?     0.0    0.125   0.125 0.125 # Description
+#eight row    (0 items)
+#?     0.0    0.0     0.125 0.125 # Description

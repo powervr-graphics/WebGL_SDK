@@ -1,0 +1,42 @@
+# Example index file used by the NavDataCompiler
+# ----------------------------------------------
+# This file contains a list of maplayers that are output by the IntermediateFormatConverter.
+# The first argument is a human-readable one-word description of the map layer, the next
+# three parameters are subdivision parameters for the hierarchical file structure.
+# The following parameters are the input and output names of the maplayer, followed by
+# the actual operation to perform on the maplayer (please have a look at the source code for
+# a per-operation description of the parameters).
+
+# Number of layers (14 in total)
+14
+# Input path
+C:\path_to_files_output_by_intermediateconverter
+# Output path
+C:\location_where_you_want_to_put_the_output
+
+# Layer identifier 
+#              Subdivisions (Coordinates|Indices|MinPrimitiveCount)
+#                          Input filename              Output filename                 Operation           Operation Parameters
+#
+
+# Double width versions for line antialiasing (5)                                                                                                                  
+Streets        1 2 100     Streets_mapLayer.txt        Streets_meshes.nav              EXTRACT_STREETS       6.0    0.75 0.0 -0.125   0.0 1.0 0.0     0.0 0.0 0.0  CAPS|INTERSECTIONS
+MajHwys        1 2 100     Streets_mapLayer.txt        MajHwys_meshes.nav              EXTRACT_MAJHWYS       9.0    0.75 0.0 -0.125   0.0 1.0 0.0     0.0 0.0 0.0  CAPS|INTERSECTIONS
+SecHwys        1 2 100     Streets_mapLayer.txt        SecHwys_meshes.nav              EXTRACT_SECHWYS       8.0    0.75 0.0 -0.125   0.0 1.0 0.0     0.0 0.0 0.0  CAPS|INTERSECTIONS
+RailRds        1 2 100     RailRds_mapLayer.txt        RailRds_meshes.nav              EXTRACT_STREETS       6.0    0.75 0.0 -0.125   0.0 1.0 0.0     0.0 0.0 0.0  CAPS|INTERSECTIONS
+Streets        1 2 100     Streets_mapLayer.txt        Outlines_meshes.nav             EXTRACT_STREETS       8.5    0.75 0.0 -0.125   0.0 1.0 0.0     0.0 0.0 0.0  CAPS|INTERSECTIONS          
+
+# Billboards (1)
+Signs          1 2 100     Signs_mapLayer.txt          Signs_billboards.nav            EXTRACT_SIGNS        textureatlas_signs.nav
+
+# Streetnames (3)
+Streets        1 3 10      Streets_mapLayer.txt        Streets_text.nav                EXTRACT_TEXT_TRIANGLES  textureatlas_text.nav  40.0 40.0
+MajHwyShield   1 2 100     MajHwyShield_mapLayer.txt   MajHwyShield_text.nav           EXTRACT_TEXT_TRIANGLES  textureatlas_text.nav  70.0 70.0
+SecHwys        1 2 100     SecHwyShield_mapLayer.txt   SecHwyShield_text.nav           EXTRACT_TEXT_TRIANGLES  textureatlas_text.nav  60.0 60.0
+
+# Polygons (5)
+WaterSeg       1 2 100     WaterSeg_mapLayer.txt       WaterSeg_meshes.nav             EXTRACT_POLYGONS
+WaterPoly      1 2 100     WaterPoly_mapLayer.txt      WaterPoly_meshes.nav            EXTRACT_POLYGONS
+Landmarks      1 2 100     Landmark_mapLayer.txt       Landmark_meshes.nav             EXTRACT_POLYGONS
+LandUseA       1 2 100     LandUseA_mapLayer.txt       LandUseA_meshes.nav             EXTRACT_POLYGONS
+LandUseB       1 2 100     LandUseB_mapLayer.txt       LandUseB_meshes.nav             EXTRACT_POLYGONS

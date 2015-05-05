@@ -1,0 +1,61 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NavDataCompiler", "..\..\NavDataCompiler\NavDataCompiler.vcproj", "{47775F24-C784-4876-9D18-AE09D4180648}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1E05299F-E91A-477F-9FEF-E1EB687D8C62} = {1E05299F-E91A-477F-9FEF-E1EB687D8C62}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libPVRNavigation", "..\..\libPVRNavigation\libPVRNavigation.vcproj", "{1E05299F-E91A-477F-9FEF-E1EB687D8C62}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CEFD3143-269A-4405-B2B5-C0350DB3B93C} = {CEFD3143-269A-4405-B2B5-C0350DB3B93C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FontConverter", "..\..\FontConverter\FontConverter.vcproj", "{B7EA5D45-9AD9-41A1-ADCF-3D4D9D8B503B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LayerMerger", "..\..\LayerMerger\LayerMerger.vcproj", "{8DBFD636-DF5E-4E77-91CB-595B91747BF9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1E05299F-E91A-477F-9FEF-E1EB687D8C62} = {1E05299F-E91A-477F-9FEF-E1EB687D8C62}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntermediateFormatConverter", "..\..\IntermediateFormatConverter\IntermediateFormatConverter.vcproj", "{975BF4D7-9A85-4AD3-B824-14E0C7EDBA37}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1E05299F-E91A-477F-9FEF-E1EB687D8C62} = {1E05299F-E91A-477F-9FEF-E1EB687D8C62}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGLES2Tools", "..\..\..\..\Tools\OGLES2\Build\WindowsPC\OGLES2Tools.vcproj", "{CEFD3143-269A-4405-B2B5-C0350DB3B93C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47775F24-C784-4876-9D18-AE09D4180648}.Debug|Win32.ActiveCfg = Debug|Win32
+		{47775F24-C784-4876-9D18-AE09D4180648}.Debug|Win32.Build.0 = Debug|Win32
+		{47775F24-C784-4876-9D18-AE09D4180648}.Release|Win32.ActiveCfg = Release|Win32
+		{47775F24-C784-4876-9D18-AE09D4180648}.Release|Win32.Build.0 = Release|Win32
+		{1E05299F-E91A-477F-9FEF-E1EB687D8C62}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1E05299F-E91A-477F-9FEF-E1EB687D8C62}.Debug|Win32.Build.0 = Debug|Win32
+		{1E05299F-E91A-477F-9FEF-E1EB687D8C62}.Release|Win32.ActiveCfg = Release|Win32
+		{1E05299F-E91A-477F-9FEF-E1EB687D8C62}.Release|Win32.Build.0 = Release|Win32
+		{B7EA5D45-9AD9-41A1-ADCF-3D4D9D8B503B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B7EA5D45-9AD9-41A1-ADCF-3D4D9D8B503B}.Debug|Win32.Build.0 = Debug|Win32
+		{B7EA5D45-9AD9-41A1-ADCF-3D4D9D8B503B}.Release|Win32.ActiveCfg = Release|Win32
+		{B7EA5D45-9AD9-41A1-ADCF-3D4D9D8B503B}.Release|Win32.Build.0 = Release|Win32
+		{8DBFD636-DF5E-4E77-91CB-595B91747BF9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8DBFD636-DF5E-4E77-91CB-595B91747BF9}.Debug|Win32.Build.0 = Debug|Win32
+		{8DBFD636-DF5E-4E77-91CB-595B91747BF9}.Release|Win32.ActiveCfg = Release|Win32
+		{8DBFD636-DF5E-4E77-91CB-595B91747BF9}.Release|Win32.Build.0 = Release|Win32
+		{975BF4D7-9A85-4AD3-B824-14E0C7EDBA37}.Debug|Win32.ActiveCfg = Debug|Win32
+		{975BF4D7-9A85-4AD3-B824-14E0C7EDBA37}.Debug|Win32.Build.0 = Debug|Win32
+		{975BF4D7-9A85-4AD3-B824-14E0C7EDBA37}.Release|Win32.ActiveCfg = Release|Win32
+		{975BF4D7-9A85-4AD3-B824-14E0C7EDBA37}.Release|Win32.Build.0 = Release|Win32
+		{CEFD3143-269A-4405-B2B5-C0350DB3B93C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CEFD3143-269A-4405-B2B5-C0350DB3B93C}.Debug|Win32.Build.0 = Debug|Win32
+		{CEFD3143-269A-4405-B2B5-C0350DB3B93C}.Release|Win32.ActiveCfg = Release|Win32
+		{CEFD3143-269A-4405-B2B5-C0350DB3B93C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
