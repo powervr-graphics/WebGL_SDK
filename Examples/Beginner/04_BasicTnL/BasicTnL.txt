@@ -7,14 +7,8 @@ This training course consists of a demonstration of basic transformation and lig
 :FullDescription:
 This training course consists of a demonstration of basic transformation and lighting, growing on the basic drawing techniques learnt in HelloTriangle.
 
-Controls:
+:Controls:
 	-	Esc	-	Close the application
 
-:VGP:
-Not Required
-
-:PolyCount:
-1
-
-:VertexCount:
-3
+:APIS:
+WebGL

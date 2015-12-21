@@ -1,6 +1,6 @@
 # PowerVR Graphics WebGL SDK #
 ![WebGL Water demo screenshot](http://powervr-graphics.github.io/WebGL_SDK/images/WebGLWaterDemo.png)
-This repository contains the source code for the PowerVR Graphics WebGL SDK. Although the WebGL SDK is written from the ground up in Javascript, it retains the coding style of the native C/C++ PowerVR Graphics OpenGL ES SDK. This should make the code instantly recognisable to programmers who have used our OpenGL ES SDK before.
+This repository contains the source code for the PowerVR Graphics WebGL SDK.
 
 The WebGL SDK includes an abstraction layer that handles application life-cycle events (Shell), a 3D maths, text printing and resource loading framework (Tools), and a sub-set of the native OpenGL ES SDK's 3D graphics example applications. The SDK has been optimized for PowerVR devices, but should run efficiently on all WebGL capable phones, tablets, laptops and PCs.
 
@@ -31,4 +31,4 @@ Many of the WebGL Examples require the code to be hosted on a server. For demons
 </ol>
 
 ## License ##
-The SDK is distributed under a permissive license so it can easily be integrated into commercial and non-commercial applications. You can find the license [here](https://github.com/powervr-graphics/WebGL_SDK/blob/master/LICENSE.txt). To further clarify the terms, we also have an SDK license FAQ (available [here](http://community.imgtec.com/developers/powervr/faq-about-the-sdk-eula/)).
+The SDK is distributed under the MIT license.
