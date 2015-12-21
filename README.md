@@ -13,21 +13,21 @@ Many of the WebGL Examples require the code to be hosted on a server. For demons
 
 ### Beginner ###
 <ol>
-<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/01_HelloAPI/WebGL/">01_HelloAPI</a></li>
-<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/02_IntroducingPVRShell/WebGL/">02_IntroducingPVRShell</a></li>
-<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/03_Texturing/WebGL/">03_Texturing</a></li>
-<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/04_BasicTnL/WebGL/">04_BasicTnL</a></li>
-<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/05_IntroducingPVRTools/WebGL/">05_IntroducingPVRTools</a></li>
-<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/06_IntroducingPrint3D/WebGL/">06_IntroducingPrint3D</a></li>
-<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/07_IntroducingPOD/WebGL/">07_IntroducingPOD</a></li>
+<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/01_HelloAPI/">01_HelloAPI</a></li>
+<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/02_IntroducingPVRShell/">02_IntroducingPVRShell</a></li>
+<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/03_Texturing/">03_Texturing</a></li>
+<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/04_BasicTnL/">04_BasicTnL</a></li>
+<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/05_IntroducingPVRTools/">05_IntroducingPVRTools</a></li>
+<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/06_IntroducingPrint3D//">06_IntroducingPrint3D</a></li>
+<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/07_IntroducingPOD/">07_IntroducingPOD</a></li>
 </ol>
 ### Intermediate ###
 <ol>
-<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Intermediate/RenderToTexture/WebGL/">RenderToTexture</a></li>
+<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Intermediate/RenderToTexture/">RenderToTexture</a></li>
 </ol>
 ### Advanced ###
 <ol>
-<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Advanced/Water/WebGL/">Water</a></li>
+<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Advanced/Water/">Water</a></li>
 </ol>
 
 ## License ##
