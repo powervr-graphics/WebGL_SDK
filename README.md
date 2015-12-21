@@ -18,7 +18,7 @@ Many of the WebGL Examples require the code to be hosted on a server. For demons
 <li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/03_Texturing/">03_Texturing</a></li>
 <li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/04_BasicTnL/">04_BasicTnL</a></li>
 <li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/05_IntroducingPVRTools/">05_IntroducingPVRTools</a></li>
-<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/06_IntroducingPrint3D//">06_IntroducingPrint3D</a></li>
+<li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/06_IntroducingPrint3D/">06_IntroducingPrint3D</a></li>
 <li><a href="http://powervr-graphics.github.io/WebGL_SDK/WebGL_SDK/Examples/Beginner/07_IntroducingPOD/">07_IntroducingPOD</a></li>
 </ol>
 ### Intermediate ###
